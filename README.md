@@ -16,7 +16,7 @@ Download the script and put it into de windows task scheduler according to your 
 Change these variables with your own data:
 - `WALLPAPERS_FOLDER` - Path to the folder where your wallpapers are stored
 - `MONITOR_INDEX` - Index of the monitor you want to change (0 = first monitor, 1 = second monitor; you can add as many monitors as you want)
-- `LAST_WALLPAPER_FILE` (called `previous_wallpaper` within the file) - Path to the txt file that stores the last wallpaper used
+- `LAST_WALLPAPER_FILE` (called `fondo_anterior` within the file) - Path to the txt file that stores the last wallpaper used
   
 ## Usage
 Just install it and execute it within the task Scheduler. Configure it as "Run whether user is logged on or not" to avoid any CMD ugly showings
